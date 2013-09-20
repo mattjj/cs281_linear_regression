@@ -54,5 +54,16 @@ Out[9]: [<matplotlib.lines.Line2D at 0x111865850>]
 
 ## Interactive Demos ##
 
-See `regression_experiments.py`.
+See `regression_experiments.py`, e.g.
 
+```python
+In [1]: import regression_experiments as r
+
+In [2]: r.interactive(deg=4)
+```
+
+The blue solid curve is the mean of the posterior predictive distribution, and
+blue dashed curves are +/- one standard deviation. Red curves are posterior
+samples.
+
+![Polynomial regression](http://www.mit.edu/~mattjj/github/cs281_linear_regression/figure_1.png)
